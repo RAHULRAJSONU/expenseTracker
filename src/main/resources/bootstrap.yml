@@ -1,0 +1,12 @@
+--- 
+spring: 
+  application: 
+    name: expense-tracker
+  jpa: 
+    properties: 
+      hibernate: 
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        temp: 
+          use_jdbc_metadata_defaults: false
+  profiles: 
+    active: local

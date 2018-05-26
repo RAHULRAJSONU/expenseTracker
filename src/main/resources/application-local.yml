@@ -1,0 +1,34 @@
+---
+expense-tracker:
+  mariadb:
+    acquire-increment: 2
+    checkout-timeout: 30000
+    driverClassName: org.mariadb.jdbc.Driver
+    idle-test-period: 100
+    initial-pool-size: 4
+    jdbc-url: jdbc:mysql://localhost:3306/expense_tracker
+    #jdbc-url: jdbc:mysql://localhost:3306/test
+    max-pool-size: 75
+    max-statement: 100
+    min-pool-size: 10
+    password:
+    username: root
+flyway:
+  baseline-migrate: true
+  baseline-version: 1
+  locations: classpath:db/flyway/migration
+  password:
+  url: jdbc:mysql://localhost:3306/expense_tracker
+  user: root
+  validateOnMigrate: false
+
+spring:
+  data:
+    rest:
+      maxPageSize: 300
+  jpa:
+    properties:
+      hibernate:
+        #ddl-auto: update
+        format_sql: true
+        show_sql: true

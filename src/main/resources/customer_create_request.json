@@ -1,0 +1,53 @@
+[
+  {
+    "customerCreateRequests": [
+      {
+        "addressList": [
+          {
+            "addressType": "CURRENT",
+            "city": "Bengaluru",
+            "country": "India",
+            "state": "Karnataka",
+            "streetAddress": "Btm",
+            "zip": "560076"
+          },
+          {
+            "addressType": "PERMANENT",
+            "city": "Bengaluru",
+            "country": "India",
+            "state": "Karnataka",
+            "streetAddress": "ELECTRONICS City",
+            "zip": "560076"
+          }
+        ],
+        "dateOfBirth": "1/1/1993",
+        "emailList": [
+          {
+            "emailAddress": "rahul@gmail.com",
+            "isPrimary": true
+          },
+          {
+            "emailAddress": "raj@gmail.com",
+            "isPrimary": false
+          }
+        ],
+        "firstName": "rahul",
+        "genderId": "e7f1e49e-2d42-4193-aa0d-5a6ba195627e",
+        "lastName": "singh",
+        "middleName": "raj",
+        "mobileList": [
+          {
+            "countryCode": "+91",
+            "isPrimary": true,
+            "mobileNumber": "9233333339"
+          },
+          {
+            "countryCode": "+91",
+            "isPrimary": false,
+            "mobileNumber": "7555555552"
+          }
+        ]
+      }
+    ]
+  }
+]
